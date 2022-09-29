@@ -20,11 +20,11 @@ docker-compose up -d
 ## Dockerコンテナに入ってコンパイル
 ```shell
 docker-compose exec app /bin/sh
-/src \# gcc main.c
-/src \# ./a.out
+/src # gcc main.c
+/src # ./a.out
 ```
 
 ## Dockerコンテナから出る
 ```shell 
-/src \# exit
+/src # exit
 ```
